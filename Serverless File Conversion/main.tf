@@ -14,3 +14,8 @@ resource "aws_s3_bucket" "file_conversion" {
         Name = "Serverless File Conversion Bucket"
     }
 }
+
+resource "aws_lambda_function" "file_converter" {
+    
+
+}
