@@ -16,6 +16,22 @@ resource "aws_s3_bucket" "file_conversion" {
 }
 
 resource "aws_lambda_function" "file_converter" {
-    
 
+
+}
+
+resource "aws_dynamodb_table" "file-metadata" {
+
+}
+
+resource "aws_iam_role" "lambda_role" {
+
+}
+
+resource "aws_sqs_que" "file_queue" {
+
+}
+
+resource "aws_sns_topic" "file_notification" {
+    
 }
